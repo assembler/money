@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby -w
+
+require "rubygems"
+require "dotenv"
+Dotenv.load
+
+require_relative "lib/exchange_rates"
+require_relative "lib/currency_converter"
+
+rates = ExchangeRates.new(ENV.fetch('OPEN_EXCHANGE_RATES_APP_ID'))
+converter = CurrencyConverter.new(rates)
+
+if ARGV.length != 3
+  puts "usage: convert 10 EUR GBP"
+
+else
+  amount, from, to = *ARGV
+  converted = converter.convert(amount.to_f, from, to).round(2)
+  puts "#{amount} #{from} = #{converted} #{to}"
+
+end
