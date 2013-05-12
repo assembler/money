@@ -1,0 +1,108 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openexchangerates.org/api/historical/2013-05-01.json?app_id=32d52f007ef14ca981c62433da545f84
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 May 2013 12:16:19 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - public
+      Etag:
+      - ! '"28a09858f3606c74037931c63ce4afbd"'
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Last-Modified:
+      - Wed, 01 May 2013 22:01:08 GMT
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ! "{\n    \"disclaimer\": \"Exchange rates are provided for informational
+        purposes only, and do not constitute financial advice of any kind. Although
+        every attempt is made to ensure quality, NO guarantees are given whatsoever
+        of accuracy, validity, availability, or fitness for any purpose - please use
+        at your own risk. All usage is subject to your acceptance of the Terms and
+        Conditions of Service, available at: https://openexchangerates.org/terms/\",\n
+        \   \"license\": \"Data sourced from various providers with public-facing
+        APIs; copyright may apply; resale is prohibited; no warranties given of any
+        kind. All usage is subject to your acceptance of the License Agreement available
+        at: https://openexchangerates.org/license/\",\n    \"timestamp\": 1367445668,\n
+        \   \"base\": \"USD\",\n    \"rates\": {\n        \"AED\": 3.673079,\n        \"AFN\":
+        53.657599,\n        \"ALL\": 107.04675,\n        \"AMD\": 415.105001,\n        \"ANG\":
+        1.7888,\n        \"AOA\": 96.035667,\n        \"ARS\": 5.187026,\n        \"AUD\":
+        0.972956,\n        \"AWG\": 1.790033,\n        \"AZN\": 0.7847,\n        \"BAM\":
+        1.48724,\n        \"BBD\": 2,\n        \"BDT\": 78.148063,\n        \"BGN\":
+        1.490003,\n        \"BHD\": 0.376998,\n        \"BIF\": 1573.121667,\n        \"BMD\":
+        1,\n        \"BND\": 1.233208,\n        \"BOB\": 6.990271,\n        \"BRL\":
+        2.005726,\n        \"BSD\": 1,\n        \"BTC\": 0.0082,\n        \"BTN\":
+        53.9042,\n        \"BWP\": 8.080383,\n        \"BYR\": 8653.95,\n        \"BZD\":
+        1.976496,\n        \"CAD\": 1.008771,\n        \"CDF\": 925.633996,\n        \"CHF\":
+        0.929048,\n        \"CLF\": 0.020535,\n        \"CLP\": 471.339124,\n        \"CNY\":
+        6.177483,\n        \"COP\": 1827.510016,\n        \"CRC\": 500.481878,\n        \"CUP\":
+        22.687419,\n        \"CVE\": 83.988075,\n        \"CZK\": 19.5445,\n        \"DJF\":
+        177.286127,\n        \"DKK\": 5.663618,\n        \"DOP\": 41.083662,\n        \"DZD\":
+        78.785524,\n        \"EEK\": 11.7331,\n        \"EGP\": 6.93554,\n        \"ETB\":
+        18.598238,\n        \"EUR\": 0.758516,\n        \"FJD\": 1.77415,\n        \"FKP\":
+        0.642731,\n        \"GBP\": 0.642731,\n        \"GEL\": 1.65135,\n        \"GHS\":
+        1.976238,\n        \"GIP\": 0.642731,\n        \"GMD\": 33.030975,\n        \"GNF\":
+        7062.976667,\n        \"GTQ\": 7.792635,\n        \"GYD\": 203.088332,\n        \"HKD\":
+        7.760546,\n        \"HNL\": 19.2711,\n        \"HRK\": 5.759438,\n        \"HTG\":
+        42.510875,\n        \"HUF\": 227.196124,\n        \"IDR\": 9721.751667,\n
+        \       \"ILS\": 3.580259,\n        \"INR\": 53.680063,\n        \"IQD\":
+        1161.84166,\n        \"IRR\": 12284.933333,\n        \"ISK\": 116.7875,\n
+        \       \"JEP\": 0.642731,\n        \"JMD\": 98.906026,\n        \"JOD\":
+        0.70826,\n        \"JPY\": 97.418263,\n        \"KES\": 83.748462,\n        \"KGS\":
+        48.1235,\n        \"KHR\": 3995.88,\n        \"KMF\": 374.079641,\n        \"KPW\":
+        900,\n        \"KRW\": 1101.254987,\n        \"KWD\": 0.284188,\n        \"KYD\":
+        0.820478,\n        \"KZT\": 151.39625,\n        \"LAK\": 7765.913268,\n        \"LBP\":
+        1508.211667,\n        \"LKR\": 126.7505,\n        \"LRD\": 74.752699,\n        \"LSL\":
+        8.997201,\n        \"LTL\": 2.622724,\n        \"LVL\": 0.531621,\n        \"LYD\":
+        1.273095,\n        \"MAD\": 8.461811,\n        \"MDL\": 12.282338,\n        \"MGA\":
+        2184.46,\n        \"MKD\": 47.151263,\n        \"MMK\": 890.797,\n        \"MNT\":
+        1422.5,\n        \"MOP\": 7.999553,\n        \"MRO\": 264.29,\n        \"MTL\":
+        0.683738,\n        \"MUR\": 31.0807,\n        \"MVR\": 15.441025,\n        \"MWK\":
+        398.713375,\n        \"MXN\": 12.195013,\n        \"MYR\": 3.041186,\n        \"MZN\":
+        30.398833,\n        \"NAD\": 8.98758,\n        \"NGN\": 158.1205,\n        \"NIO\":
+        24.698913,\n        \"NOK\": 5.778383,\n        \"NPR\": 86.451138,\n        \"NZD\":
+        1.17601,\n        \"OMR\": 0.385016,\n        \"PAB\": 1,\n        \"PEN\":
+        2.644293,\n        \"PGK\": 2.148783,\n        \"PHP\": 41.151313,\n        \"PKR\":
+        98.456525,\n        \"PLN\": 3.160241,\n        \"PYG\": 4153.681667,\n        \"QAR\":
+        3.640864,\n        \"RON\": 3.282688,\n        \"RSD\": 84.047376,\n        \"RUB\":
+        31.201563,\n        \"RWF\": 632.283,\n        \"SAR\": 3.750395,\n        \"SBD\":
+        7.355993,\n        \"SCR\": 11.747038,\n        \"SDG\": 4.415092,\n        \"SEK\":
+        6.484149,\n        \"SGD\": 1.233109,\n        \"SHP\": 0.642731,\n        \"SLL\":
+        4326.25,\n        \"SOS\": 1518.415,\n        \"SRD\": 3.275,\n        \"STD\":
+        18705.566667,\n        \"SVC\": 8.753934,\n        \"SYP\": 70.146563,\n        \"SZL\":
+        8.997751,\n        \"THB\": 29.323075,\n        \"TJS\": 4.756733,\n        \"TMT\":
+        2.85215,\n        \"TND\": 1.60579,\n        \"TOP\": 1.741429,\n        \"TRY\":
+        1.793755,\n        \"TTD\": 6.42454,\n        \"TWD\": 29.521912,\n        \"TZS\":
+        1620.67,\n        \"UAH\": 8.111761,\n        \"UGX\": 2597.27,\n        \"USD\":
+        1,\n        \"UYU\": 18.9107,\n        \"UZS\": 2066.746696,\n        \"VEF\":
+        6.292857,\n        \"VND\": 20867.666667,\n        \"VUV\": 91.5,\n        \"WST\":
+        2.290929,\n        \"XAF\": 498.518263,\n        \"XAG\": 0.042925,\n        \"XAU\":
+        0.000699,\n        \"XCD\": 2.701875,\n        \"XDR\": 0.66035,\n        \"XOF\":
+        498.189753,\n        \"XPF\": 90.742712,\n        \"YER\": 214.983376,\n        \"ZAR\":
+        9.015458,\n        \"ZMK\": 5233.366667,\n        \"ZMW\": 5.301645,\n        \"ZWL\":
+        322.387247\n    }\n}"
+    http_version: 
+  recorded_at: Sun, 12 May 2013 12:16:19 GMT
+recorded_with: VCR 2.4.0
