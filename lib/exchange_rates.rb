@@ -13,6 +13,10 @@ class ExchangeRates
     data[currency]
   end
 
+  def fetch(currency)
+    data.fetch(currency)
+  end
+
 private
   def data
     @data ||= fetch_data
