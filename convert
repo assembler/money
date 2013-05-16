@@ -1,8 +1,10 @@
 #!/usr/bin/env ruby -w
 
+require 'pathname'
 require "rubygems"
 require "dotenv"
-Dotenv.load
+
+Dotenv.load File.join(File.dirname(Pathname.new(__FILE__).realpath),'.env')
 
 require_relative "lib/exchange_rates"
 require_relative "lib/currency_converter"
